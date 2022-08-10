@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
         <div>
           <h1 className="text-2xl sm:text-3xl lg:text-4xl px-2">
-            Best <span className="font-bold">Eats</span>
+            Best <span className="font-bold text-orange-600">Eats</span>
           </h1>
         </div>
         <div className="hidden lg:flex items-center p-1 bg-gray-200 rounded-full text-[14px]">
