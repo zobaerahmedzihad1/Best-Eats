@@ -20,7 +20,7 @@ const Food = () => {
     );
   };
   return (
-    <div className="max-w-[1640px] mx-4 py-12">
+    <div className="max-w-[1640px] mx-8 py-12">
       <h1 className="text-4xl text-center text-orange-600 font-bold">
         Top Rated Menu Items
       </h1>

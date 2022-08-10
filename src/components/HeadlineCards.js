@@ -2,7 +2,7 @@ import React from "react";
 
 const HeadlineCards = () => {
   return (
-    <div className="max-w-[1640px] cursor-pointer p-4 mx-auto py-12 grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+    <div className="max-w-[1640px] cursor-pointer p-8 mx-auto py-12 grid sm:grid-cols-2 md:grid-cols-3 gap-6">
       <div className="rounded-xl relative">
         <div className="absolute w-full h-full text-white p-4 rounded-xl bg-black/50">
           <p className="text-2xl font-bold px-2 pt-2"> Sun's Out, BOGO's Out</p>
