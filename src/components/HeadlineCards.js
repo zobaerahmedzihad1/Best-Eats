@@ -2,12 +2,12 @@ import React from "react";
 
 const HeadlineCards = () => {
   return (
-    <div className="max-w-[1640px] p-4 py-12 grid md:grid-cols-3 sm:grid-cols-2 gap-6">
+    <div className="max-w-[1640px] p-4 mx-auto py-12 grid sm:grid-cols-2 md:grid-cols-3 gap-6">
       <div className="rounded-xl relative">
         <div className="absolute w-full h-full text-white p-4 rounded-xl bg-black/50">
-          <p className="text-2xl font-bold px-2 pt-4"> Sun's Out, BOGO's Out</p>
+          <p className="text-2xl font-bold px-2 pt-2"> Sun's Out, BOGO's Out</p>
           <p className="px-2">Through 8/24</p>
-          <button className="border-white bg-white text-black font-bold absolute bottom-4">
+          <button className="border-white bg-white text-black font-bold absolute bottom-3">
             Order Now
           </button>
         </div>
@@ -19,9 +19,9 @@ const HeadlineCards = () => {
       </div>
       <div className="rounded-xl relative">
         <div className="absolute w-full h-full text-white p-4 rounded-xl bg-black/50">
-          <p className="text-2xl font-bold px-2 pt-4"> New Restaurants</p>
+          <p className="text-2xl font-bold px-2 pt-2"> New Restaurants</p>
           <p className="px-2">Added Daily</p>
-          <button className="border-white bg-white text-black font-bold absolute bottom-4">
+          <button className="border-white bg-white text-black font-bold absolute bottom-3">
             Order Now
           </button>
         </div>
@@ -33,9 +33,9 @@ const HeadlineCards = () => {
       </div>
       <div className="rounded-xl relative">
         <div className="absolute w-full h-full text-white p-4 rounded-xl bg-black/50">
-          <p className="text-2xl font-bold px-2 pt-4"> We Deliver Desserts Too</p>
+          <p className="text-2xl font-bold px-2 pt-2"> We Deliver Desserts Too</p>
           <p className="px-2">Tasty Treats</p>
-          <button className="border-white bg-white text-black font-bold absolute bottom-4">
+          <button className="border-white bg-white text-black font-bold absolute bottom-3">
             Order Now
           </button>
         </div>
